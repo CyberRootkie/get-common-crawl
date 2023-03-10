@@ -3,6 +3,10 @@ import gzip
 import os
 
 # Il faut récupérer le dernier "harmonic centrality and pagerank" du dernier article "Host- and Domain-Level Web Graphs"
+'''
+TODO
+Corriger le traitement des domaines en .com.au, .com.br, ...
+'''
 
 url = 'https://data.commoncrawl.org/projects/hyperlinkgraph/cc-main-2022-may-jun-aug/domain/cc-main-2022-may-jun-aug-domain-ranks.txt.gz'
 r = requests.get(url)
